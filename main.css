@@ -1,0 +1,204 @@
+
+.c-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  background: #1a6ccc;
+  box-shadow: 0 5px 13px 0 rgba(#000, 0.15);
+  
+  @media (max-width: 600px) {
+    padding: 0.5rem;
+  }
+}
+
+.c-logo {
+  font-size: 20px;
+  font-weight: bold;
+  
+  a {
+    color: #fff;
+  }
+}
+
+.c-header__nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  @media (max-width: 600px) {
+    margin-left: initial;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    padding: 8px;
+    color: #fff;
+  }
+}
+
+.c-user {
+  display: flex;
+  align-items: center;
+  
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .c-logo {
+    margin: 1rem 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:  #EDF2F7;
+}
+
+.section-1{
+  display: flex;
+  gap: 1rem;
+  min-height: auto;
+  background-color: #EDF2F7;
+}
+
+left{
+  flex: 30%;
+  background-color: rgb(255, 255, 255);
+  
+ 
+
+  
+}
+
+.icons{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  
+  
+}
+
+i{
+  color: #555;
+ 
+}
+ 
+img{
+  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    @media(max-width:450px){
+      width: 70px;
+      height: 70px;
+
+    }
+
+    @media(max-width:330px){
+      width: 90px;
+      height: 90px;
+      
+    }
+  
+}
+
+.product{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li{
+  flex: auto;
+}
+
+right{
+  flex: 70%;
+  background-color: rgb(255, 255, 255);
+  height: fit-content;
+  padding: 10px;
+}
+
+
+
+bottom{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 30%; /* I used percentage sign here to keep the margin fixed on all devices */
+
+  background-color: rgb(255, 255, 255);
+  min-height: auto;
+  padding: 10px;
+  padding-bottom: 10%;
+}
+
+.news{
+  
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.search-input {
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+}
+
+.search-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
